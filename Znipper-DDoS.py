@@ -3,15 +3,33 @@ import requests
 import threading
 import random
 
-########################################
-#       Educational purpose only       #
-########################################
+# Color
+B = '\033[1m'
+R = '\033[31m'
+N = '\033[0m'
 
 if os.name == 'nt':
     os.system("cls")
 else:
     os.system("clear")
-
+print B+""
+print ""                         "
+print "   _|  __                       "
+print "                            "
+print "                         nn  "
+print "                            "
+print ""
+print ""
+print ""
+print ""
+print ""
+print ""
+print ""
+print ""
+print ""
+print ""
+print ""
+print "["+B+""+R+"#"+N+"] "+B+""+R+" Znipper - "+B+""+R+ZA"+N
 
 url = input("URL:  ").strip()
 
